@@ -23,7 +23,7 @@ body {
     line-height: 2;
 }
 
-/** Globales **/
+/* Globales ...................... */
 .contenedor {
     width: min(90%, 120rem);
     margin: 0 auto;
@@ -51,11 +51,11 @@ h4{
 }
 
 img{
-    max-width: 100%;
+    width: 100%;
 
 }
 
-/* Utillidades */
+/* Utilidades ...................... */
 .no-margin {
     margin: 0;
 }
@@ -66,7 +66,7 @@ img{
     text-align: center;
 }
 
-/* Header */
+/* Header ...................... */
 .header {
     background-image: url(../img/banner.webp);
 }
@@ -93,7 +93,7 @@ img{
 }
 
 .barra {
-    /* margin-top: 4rem; */
+     padding-top: 4rem; 
 }
 
 @media (min-width: 768px) {
@@ -120,7 +120,7 @@ img{
         gap: 2rem;
     }
 }
-
+/* Navegacion ...................... */
 .navegacion__enlace {
     display: block;
     text-align: center;
@@ -192,12 +192,26 @@ img{
 }
 
 .widget-curso__info{
-    font-weight: normal;
+    font-weight: 2rem;
 }
 
+/* Footer ...................... */
 .footer {
     background-color: var(--negro);
+    padding: 3rem 0;
     padding-bottom: 3rem;
-    margin-top: 3 rem;
+    margin-top: 4 rem;
+}
 
+/* Sobre Nosotros .............. */
+
+@media (min-width: 768px) {
+   .sobre-nosotros {
+        display: flex; 
+        gap: 2rem;
+   }
+   .sobre-nosotros__imagen, 
+   .sobre-nosotros__texto { 
+        flex-basis: 50%;
+   }
 }
