@@ -204,7 +204,6 @@ img{
 }
 
 /* Sobre Nosotros .............. */
-
 @media (min-width: 768px) {
    .sobre-nosotros {
         display: flex; 
